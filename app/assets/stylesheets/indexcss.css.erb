@@ -1,0 +1,535 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video
+{
+	/*
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    */
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Gruel and Usual Punishment, a combat against facebook f***ery */
+iframe
+{
+	height: 100px;
+	width: 100px;
+}
+
+/* Following allows sticky footer....wait for it.....to stick! */
+html,body
+{
+	height: 100%;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 450%; /* usually 350% */
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 300%;  /*usually 200%*/
+	margin: 3%;
+}
+
+h3
+{
+	text-align: center;
+	margin: 3%;
+}
+
+p
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 120%;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.page-wrapper
+{
+	margin-left: 10%; 
+	margin-right: 10%;
+}
+
+.mainImg
+{
+    display: table;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.imgHeader
+{
+	/* Entire reason for .erb extension is to use asset_path in following line */
+	height: 300px;
+}
+
+.animatedBack
+{
+	border: 0px;
+	height: 0px;
+	width: 0px;
+}
+
+.socialMediaButton
+{
+	float: left;
+	margin-top: 80px;
+}
+
+.googlePlusButton
+{
+	float: left;
+	margin-top: 77px;
+}
+
+.stdIntroItem
+{
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 1px 1px #888888;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.bodyBacker
+{
+	background-image:url('/images/simple.png');
+}
+
+.specialIntroItem
+{
+	margin-top: 100px;
+	background-color: #202020;
+	margin-bottom: 100px;
+	box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.blackBackIntroItem
+{
+	background-color: #202020;
+}
+
+.bitshootImageLeft
+{
+	float: left;
+}
+
+.bitshootImageRight
+{
+	float: right;
+}
+
+.gameImageLeft
+{
+	float: left;
+}
+
+.gameImageLeft
+{
+	float: right;
+}
+
+.gameImage
+{
+}
+
+.specialIntroText
+{
+	color: #FFFFFF;
+}
+
+.navigator
+{
+	/*
+	position: fixed;
+	width: 100%;
+	height:35px;
+	*/
+	background-color: #003366;
+	margin-bottom: 0px;
+	/*
+	display: inline;
+	*/
+}
+
+.navButton
+{
+	/*
+	height: 35px;
+	width: 120px;
+	*/
+}
+
+button
+{
+	background: transparent;
+	border: none;
+	font-size: 14px;
+	color : #FFFFF0;
+}
+
+button:hover
+{
+	background-color:#3399FF;
+}
+
+a
+{
+	height: 35px;
+	width: 120px;
+	background: transparent;
+	border: none;
+	//margin-left: 5px;
+	//margin-right: 5px;
+	text-align: center;
+	font-size: 18px;
+	color : #C8C8C8;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: none;
+	/*background-color: #3399FF;*/
+	color : #FFFFF0;
+}
+
+/*
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+*/
+
+/*
+li
+{
+	float: left;
+}
+*/
+
+.projectTitle
+{
+	/*float: left;*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.projectImage
+{
+	display: table;
+    margin: 0 auto;
+}
+
+.projectDescrip
+{
+	/*float: left;	*/
+	text-align: center;
+}
+
+.projectItem
+{
+	background-color: #E8E8E8;
+	box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.googlePlayLink
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.projectLink
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #003366;
+	background: transparent;
+}
+
+.projectLink:hover
+{
+	background-color: transparent;
+	color: #3399FF;
+}
+
+.contactLink
+{
+	color: #6699FF;
+}
+
+.contactLink:hover
+{
+	color: #66CCCC;
+}
+
+.contactLinkResize
+{
+	color: #6699FF;
+}
+
+.contactLinkResize:hover
+{
+	color: #66CCCC;
+}
+
+.beans /* I swear i did not mean to make a variable with a nonsense name */
+{
+	height: 200px;
+	margin-top: 40px;
+}
+
+
+/*******************
+	REALLY eye this stuff
+*/
+
+/* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer
+      {
+        height: 120px;
+      }
+      
+      #footer
+      {
+        background-color: #303030;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      #wrap > .container {
+        padding-top: 60px;
+      }
+      .container
+      {
+        margin: 20px 0;
+        color: #FFFFFF;
+      }
+      
+      .credit
+      {
+      	margin: 20px 0;
+        color: #FFFFFF;
+        text-align: center;
+      }
+
+      code {
+        font-size: 80%;
+      }
+      
+/***************
+	REALLY eye this stuff
+*/
+
+/*
+	Override for blue background compensates for bounds changes along the top of the screen
+	in order to accomodate for mobile
+*/
+@media (max-width: 979px)
+{
+	.mainImg
+	{
+		margin-top: 0px;
+	}
+	
+	.bitshootImageLeft
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.bitshootImageRight
+	{
+		width: 50px;
+		height: 50px;
+	}
+	
+	.socialMediaButton
+	{
+		margin-top: 15px;
+	}
+	
+	.googlePlusButton
+	{
+		margin-top: 12px;
+	}
+}
+
+/* 
+	Override to Allow for blue background to cover left to right completely
+	while still maintaining the bounds for the navbar
+*/
+@media (max-width: 767px)
+{
+
+	body
+	{
+		padding: 0;
+	}
+	
+	.navigator
+	{
+		padding-left: 20px;
+		padding-right: 0px;
+		margin-right: 0;
+	}
+	
+	/* Adjust Page wrapper to full page view */
+	.page-wrapper
+	{
+		margin-left: 0px; 
+		margin-right: 0px;
+	}
+	
+	#footer
+	{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	
+	.dropDownButton
+	{
+		width: 60px;
+	}
+}
+
+/*
+	Mid-Range Text Adjustments
+*/
+@media (max-width: 620px)
+{
+	h1
+	{
+		font-size: 290%;
+	}
+	
+	h2
+	{
+		font-size: 210%;
+	}
+	
+	.animatedBack
+	{
+		visibility: hidden;
+	}
+	
+	.gameImageLeft
+	{
+		width: 75px;
+		height: 133px;
+	}
+
+	.gameImageRight
+	{
+		width: 75px;
+		height: 133px;
+	}
+
+	.gameImage
+	{
+		width: 75px;
+		height: 133px;
+	}
+}
+
+/*
+	Low-Range Text Adjustments
+*/
+@media (max-width: 420px)
+{
+
+	.gameImageLeft
+	{
+		width: 37px;
+		height: 67px;
+	}
+
+	.gameImageRight
+	{
+		width: 37px;
+		height: 67px;
+	}
+
+	.gameImage
+	{
+		width: 37px;
+		height: 67px;
+	}
+		
+	h1
+	{
+		font-size: 210%;
+	}
+	
+	h2
+	{
+		font-size: 130%;
+	}
+	
+	.dropDownButton
+	{
+		width: 30px;
+	}
+	
+	.contactLinkResize
+	{
+		font-size: 90%;
+	}
+	
+	.socialMediaButton
+	{
+		clear: both;
+	}
+	
+	.googlePlusButton
+	{
+		clear: both;
+	}
+}
+
+.grayText
+{
+	color: #808080;
+}
+
